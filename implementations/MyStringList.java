@@ -136,14 +136,10 @@ public class MyStringList implements StringList {
         if (!contains(item)) {
             return result;
         }
-        ;
-        result = count - 1;
-        for (String s : storage
-        ) {
-            if (s.equals(item)) {
+        for (result = count - 1; result > 0; result--) {
+            if (storage[result].equals(item)) {
                 break;
             }
-            result--;
         }
         return result;
     }
