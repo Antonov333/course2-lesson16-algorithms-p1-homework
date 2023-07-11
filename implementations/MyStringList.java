@@ -4,6 +4,10 @@ import com.example.course2lesson16algorithmsp1homework.interfaces.StringList;
 
 public class MyStringList implements StringList {
 
+    private String[] storage;
+    long capacity;
+    long lastIndex;
+
 
     @Override
     public String add(String item) {
