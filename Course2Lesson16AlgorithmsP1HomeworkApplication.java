@@ -11,7 +11,7 @@ public class Course2Lesson16AlgorithmsP1HomeworkApplication {
     public static void main(String[] args) {
         SpringApplication.run(Course2Lesson16AlgorithmsP1HomeworkApplication.class, args);
 
-        MyStringList myStringList = new MyStringList();
+        MyStringList myStringList = new MyStringList(10);
     }
 
 }
